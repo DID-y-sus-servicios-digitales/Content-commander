@@ -5,11 +5,11 @@ const zoomOutButton = document.getElementById('zoomOut');
 let currentWidth = 200; // Ancho inicial de la imagen
 
 zoomInButton.addEventListener('click', () => {
-  currentWidth += 20; // Aumentar el ancho en 20 píxeles
+  currentWidth += 600; // Aumentar el ancho en 20 píxeles
   image.style.width = `${currentWidth}px`;
 });
 
 zoomOutButton.addEventListener('click', () => {
-  currentWidth -= 20; // Reducir el ancho en 20 píxeles
+  currentWidth -= 600; // Reducir el ancho en 20 píxeles
   image.style.width = `${currentWidth}px`;
 });
