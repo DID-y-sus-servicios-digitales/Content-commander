@@ -1,15 +1,15 @@
-const content = document.getElementById('content');
+const image = document.getElementById('myImage');
 const zoomInButton = document.getElementById('zoomIn');
 const zoomOutButton = document.getElementById('zoomOut');
 
-let currentFontSize = 16; // Tamaño de fuente inicial
+let currentWidth = 200; // Ancho inicial de la imagen
 
 zoomInButton.addEventListener('click', () => {
-  currentFontSize += 2; // Aumentar el tamaño de fuente en 2 píxeles
-  content.style.fontSize = `${currentFontSize}px`;
+  currentWidth += 20; // Aumentar el ancho en 20 píxeles
+  image.style.width = `${currentWidth}px`;
 });
 
 zoomOutButton.addEventListener('click', () => {
-  currentFontSize -= 2; // Reducir el tamaño de fuente en 2 píxeles
-  content.style.fontSize = `${currentFontSize}px`;
+  currentWidth -= 20; // Reducir el ancho en 20 píxeles
+  image.style.width = `${currentWidth}px`;
 });
