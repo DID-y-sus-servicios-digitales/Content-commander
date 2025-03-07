@@ -1,17 +1,17 @@
 /* Estilos para dispositivos móviles (ancho máximo de 768px) */
 @media (max-width: 768px) {
-  .texto-movil {
-    display: block; /* Muestra el texto en móviles */
-    font-size: 60px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    text-align: center;
+  .texto-ordenador {
+    display: none; /* Oculta el texto en móviles */
   }
 }
 
 /* Estilos para ordenadores (ancho mínimo de 769px) */
 @media (min-width: 769px) {
-  .texto-movil {
-    display: none; /* Oculta el texto en ordenadores */
+  .texto-ordenador {
+    display: block; /* Muestra el texto en ordenadores */
+    font-size: 18px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    text-align: center;
   }
 }
