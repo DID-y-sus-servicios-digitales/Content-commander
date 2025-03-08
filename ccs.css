@@ -1,12 +1,12 @@
 /* Estilos para dispositivos móviles (ancho máximo de 768px) */
-@media (max-width: 790px) {
+@media (max-width: 400px) {
   .texto-ordenador {
     display: none; /* Oculta el texto en móviles */
   }
 }
 
 /* Estilos para ordenadores (ancho mínimo de 769px) */
-@media (min-width: 790px) {
+@media (min-width: 400px) {
   .texto-ordenador {
     display: block; /* Muestra el texto en ordenadores */
     font-size: 18px;
