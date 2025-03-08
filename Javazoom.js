@@ -2,7 +2,7 @@ const image = document.getElementById('img');
 const zoomInButton = document.getElementById('zoomIn');
 const zoomOutButton = document.getElementById('zoomOut');
 
-let currentWidth = 16; // Ancho inicial de la imagen (ajusta este valor)
+let currentWidth = 500; // Ancho inicial de la imagen (ajusta este valor)
 
 zoomInButton.addEventListener('click', () => {
   currentWidth += 20; // Aumentar el ancho en 20 píxeles
