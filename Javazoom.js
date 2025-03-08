@@ -1,4 +1,4 @@
-cconst image = document.getElementById('myImage');
+cconst image = document.getElementById('img');
 const zoomInButton = document.getElementById('zoomIn');
 const zoomOutButton = document.getElementById('zoomOut');
 
